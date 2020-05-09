@@ -1,7 +1,30 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
 @font-face{
     font-family: 'Play';
     src: url('assets/fonts/Play-Regular.ttf');
 }
-body{
+h1{
     font-family: 'Play';
+}
+
+body {
+    padding-top: 56px;
+    background-color: cyan;
+  }
+
+body, html{
+    height: 100%;
+}
+.footer{
+    position: absolute;
+    bottom: 10px;
+    height: 60px;
+}
+.wrapper{
+    min-height: 100%;
+    position: relative;
+}
+.content{
+    padding-bottom: 100px;
 }
